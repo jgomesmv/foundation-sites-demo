@@ -1,0 +1,182 @@
+$fa-font-path: "../../fonts";
+$icons-font-path: "../../fonts";
+
+// ------------------------------------------------------------
+// ERECRUITER BACKGROUND
+// ------------------------------------------------------------
+$background-dropdown-arrow: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAASCAYAAABFGc6jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAK5JREFUeNpi/P//PwM9ABMDncCoRZRbNH369AQgXkBIA0gNSC2pFjGCUh1U43yo2EUgdsjMzPyAZoEAkDoAxPpQoUSgmgWk+mgCkhjIoANQg3FZgq6HIGCB0gZAvAHJIJhlAVD+BjRLQL4OIDno8Lj6I5TmR7MEI2iJtgiPZQyUWoJhEXLKAlLxaMILgRYkUDUfQQ1cSC1LcPoIyWcToBYXUJphGUdL70FvEUCAAQBqSFBSnDEYkAAAAABJRU5ErkJggg==");
+$gray-dropdown-arrow: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJ9JREFUeNpiYBgFo4BykJWVFQDEBjjkCoBYAJ9+JnTDgNR6Tk7O848fP/6PDBYtWvQfKNcPxPOJNhAIDgDxhe/fvzNMmDCB4cmTJwww9okTJ2BqNuIzkBGLt0Be2g/EBkCXMggLC4MNBoIPQBw4bdq0AyQZiG4oVAhkmCPQsAuE4oAZm+Dp06d/mJqargQyJYBYgVjDiI11hQFNdgABBgDpNEVRuE6t3wAAAABJRU5ErkJggg==");
+// ------------------------------------------------------------
+// ARROW DROPDOWN (SELECTS) SIZE
+// ------------------------------------------------------------
+$dropdown-arrow-size: 18px;
+// ------------------------------------------------------------
+// ERECRUITER BLACK & WHITE
+// ------------------------------------------------------------
+$basic-black: #333333 !default;
+$basic-white: #ffffff !default;
+
+// ------------------------------------------------------------
+// ERECRUITER BLACK OPACITY
+// ------------------------------------------------------------
+$black-90: rgba(51, 51, 51, 0.9) !default;
+$black-60: rgba(51, 51, 51, 0.6) !default;
+$black-40: rgba(51, 51, 51, 0.4) !default;
+$black-20: rgba(51, 51, 51, 0.2) !default;
+$black-15: rgba(51, 51, 51, 0.15) !default;
+$black-10: rgba(51, 51, 51, 0.1) !default;
+$black-5: rgba(51, 51, 51, 0.05) !default;
+$black-3: rgba(51, 51, 51, 0.03) !default;
+
+// ------------------------------------------------------------
+// ERECRUITER GRAY
+// ------------------------------------------------------------
+$gray100: #404040 !default;
+$gray200: #4d4d4d !default;
+$gray300: #595959 !default;
+$gray350: #858585 !default;
+$gray400: #f3f3f3 !default;
+
+// ------------------------------------------------------------
+// ERECRUITER GREEN
+// ------------------------------------------------------------
+$green100: #00EB9C !default;
+$green100-10: rgba(0, 235, 156, 0.1) !default;
+$green100-40: rgba(0, 235, 156, 0.4) !default;
+$green200: #00E096 !default;
+$green300: #00D48D !default;
+$green400: #00C483 !default;
+$green500-03:rgba(0, 186, 124, 0.03) !default;
+$green500-05:rgba(0, 186, 124, 0.05) !default;
+$green500-10:rgba(0, 186, 124, 0.1) !default;
+$green500: #00BA7C !default;
+
+// ------------------------------------------------------------
+// ERECRUITER RED
+// ------------------------------------------------------------
+$red100: #F50052 !default;
+$red100-40:	rgba(245, 0, 82, 0.4);
+$red200: #DE004A !default;
+$red300: #D40047 !default;
+$red400: #C70042 !default;
+
+// ------------------------------------------------------------
+// ERECRUITER YELLOW
+// ------------------------------------------------------------
+$yellow100: #FFEA00 !default;
+$yellow200: #F5E000 !default;
+$yellow300: #EDD900 !default;
+$yellow400: #E6D200 !default;
+
+// ------------------------------------------------------------
+// ERECRUITER BLUE
+// ------------------------------------------------------------
+$blue100: #0066ff !default;
+$blue200: #005ee0 !default;
+$blue300: #0058d4 !default;
+$blue400: #004db8 !default;
+
+// ------------------------------------------------------------
+// ERECRUITER OTHER COLOURS
+// ------------------------------------------------------------
+$progressbar-background: #f0f1f4 !default;
+// MESSAGES COLOURS
+$message-blue: #006fa1 !default;
+//SECONDARY COLOURS
+
+//LABELS COLOURS
+$color-label-new: #d4ebe8 !default;
+$color-label-interview: #e5f3f1 !default;
+$color-label-offer: #f6fbfa !default;
+//WORKFLOW LABELS
+$color-workflow-new: rgba(
+  212,
+  235,
+  232,
+  1
+) !default;
+$color-workflow-interview: rgba(
+  212,
+  235,
+  232,
+  0.66
+) !default;
+$color-workflow-offer: rgba(
+  212,
+  235,
+  232,
+  0.33
+) !default;
+//OVERLAYS
+$black-overlay: rgba(
+  0,
+  0,
+  0,
+  0.5
+) !default;
+$black-overlay-80: rgba(
+  0,
+  0,
+  0,
+  0.8
+) !default;
+$white-overlay: rgba(
+  255,
+  255,
+  255,
+  0.7
+) !default;
+
+// BOX SHADOW COLORS
+$color-box-shadow: #dddddd;
+$box-shadow-level5: 0 2px 5px rgba(0, 0, 0, 0.10);
+$box-shadow-level200: 0 2px 10px  rgba(0, 0, 0, 0.20);
+// ------------------------------------------------------------
+// ERECRUITER SIZES
+// ------------------------------------------------------------
+$screen-size-xxxxl: 1600px;
+$screen-size-xxxl: 1440px;
+$screen-size-xxl: 1280px;
+$screen-size-xl: 1200px;
+$screen-size-l: 1024px;
+$screen-size-m: 640px;
+$screen-size-s: 0;
+// ------------------------------------------------------------
+// ERECRUITER FONTS
+// ------------------------------------------------------------
+//Font Types
+$base-font-family: "effra", sans-serif !default;
+$headings-font-family: "effra", sans-serif !default;
+$fallback-font-family: "Tahoma", sans-serif !default;
+$code-font-family: "Inconsolata", monospace !default;
+//Font Sizes
+$font-size-small: 13px !default;
+$font-size-base: 15px !default;
+$font-size-medium: 18px !default;
+$font-size-heading-base: 20px !default;
+$font-size-heading-big: 30px !default;
+$font-size-heading-main: 36px !default;
+$font-size-xxl: 45px !default;
+//Font Weights
+$font-weight-small: 300 !default;
+$font-weight-regular: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 700 !default;
+//Icons
+$font-size-icon-small: 10px !default;
+$font-size-icon-base: $font-size-base !default;
+$font-size-icon-big: 22px !default;
+$font-size-icon-main: 26px !default;
+$font-size-icon-heading: 45px !default;
+//z-index
+$zIndex-1: -1 !default;
+$zIndex1: 1 !default;
+$zIndex50: 50 !default;
+$zIndex100: 100 !default;
+$zIndex200: 200 !default;
+$zIndex400: 400 !default;
+$zIndex700: 700 !default;
+$zIndex1003: 1003 !default;
+$zIndex1005: 1005 !default;
+
+// BUILD_INSERT_WHITELABEL
